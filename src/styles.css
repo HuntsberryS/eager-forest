@@ -6,3 +6,8 @@
 li {
   list-style: none;
 }
+
+footer {
+  margin-top: 300px;
+  text-align: center;
+}
