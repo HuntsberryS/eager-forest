@@ -29,7 +29,7 @@ export default function SearchEngine() {
   }
   if (temp) {
     return (
-      <div>
+      <div className="weather">
         <h1> Search Engine </h1>
         <form onSubmit={handleSubmit}>
           <input
@@ -37,6 +37,7 @@ export default function SearchEngine() {
             onChange={updateCity}
             placeholder="enter a city..."
           />
+
           <input type="submit" value="search" />
         </form>
         <ul>
@@ -51,7 +52,8 @@ export default function SearchEngine() {
   } else {
     return (
       <div>
-        <h1> Search Engine </h1>
+        <h1>Weather Forecst</h1>
+        <br />
         <form onSubmit={handleSubmit}>
           <input
             type="search"

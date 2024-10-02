@@ -3,11 +3,29 @@
   text-align: center;
 }
 
-li {
+ul li {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19.2px;
   list-style: none;
 }
 
 footer {
   margin-top: 300px;
   text-align: center;
+}
+.container {
+  border: solid 1px rgb(215, 215, 215);
+  border-radius: 7px;
+  padding: 50px;
+  justify-items: center;
+  margin-top: 20%;
+}
+.weather h1 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+}
+input {
+  margin: 20px;
 }

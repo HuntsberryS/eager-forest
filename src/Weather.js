@@ -23,16 +23,15 @@ export default function SearchEngine() {
     let [icon, setIcon] = useState(null);
     let [text, setText] = useState(null);
 
-  function showWeather(response) {
-    setTemp(Math.round(response.data.main.temp));
-   setHumidity(Math.round(response.data.main.humidity));
+    function showWeather(response) {
+      setTemp(Math.round(response.data.main.temp));
+      setHumidity(Math.round(response.data.main.humidity));
       setDescription(response.data.weather[0].description);
       setWind(Math.round(response.data.wind.speed));
       setIcon(response.data.weather[0].icon);
-   
+
       return (
         <div>
-          <h1>Search Engine </h1>
           <form onSubmit={updateCity}>
             <input
               type="search"
