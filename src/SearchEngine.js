@@ -36,9 +36,10 @@ export default function SearchEngine() {
             type="search"
             onChange={updateCity}
             placeholder="enter a city..."
+            className="searchBar"
           />
 
-          <input type="submit" value="search" />
+          <input type="submit" value="search" className="btn btn-primary" />
         </form>
         <ul>
           <li>Current Temperature: {temp}°C</li>

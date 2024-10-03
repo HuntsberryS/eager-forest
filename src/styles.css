@@ -1,6 +1,9 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
 }
 
 ul li {
@@ -28,4 +31,7 @@ footer {
 }
 input {
   margin: 20px;
+}
+.searchBar {
+  width: 300px;
 }
